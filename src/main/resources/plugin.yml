@@ -1,0 +1,17 @@
+name: Philutil
+version: '${project.version}'
+main: de.pvhil.philutil.Main
+api-version: 1.18
+authors: [ pvhil ]
+description: meine utils
+website: pvhil.me
+commands:
+  c:
+    description: Teilt deine aktuellen Koordinaten
+    usage: /<command>
+  store:
+    description: Speichert coords
+    usage: /<command>
+  clist:
+    description: zeigt gespeicherte coords
+    usage: /<command>
